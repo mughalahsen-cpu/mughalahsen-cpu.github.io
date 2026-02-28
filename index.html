@@ -1,14 +1,94 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ahsen Naveed</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ahsen Naveed | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body style="margin:0;background:#0b0f19;color:white;font-family:Arial;display:grid;place-items:center;height:100vh;">
-  <div style="text-align:center;">
-    <h1 style="font-size:52px;margin:0;">Ahsen Naveed</h1>
-    <p style="opacity:.7;">Professional Portfolio Website</p>
-  </div>
+<body>
+  <div class="bg"></div>
+
+  <header class="hero" id="top">
+    <div class="container">
+      <div class="avatar-wrap">
+        <img class="avatar" src="https://via.placeholder.com/140" alt="Profile photo" />
+      </div>
+
+      <h1 class="name">Ahsen Naveed</h1>
+      <p class="tagline">Business/Data Analyst | MS in Business Analytics | SQL • Power BI • Python</p>
+
+      <div class="btn-row">
+        <a class="btn" href="https://github.com/mughalahsen-cpu" target="_blank" rel="noreferrer">My GitHub</a>
+        <a class="btn" href="#" target="_blank" rel="noreferrer">My LinkedIn</a>
+        <a class="btn primary" href="#projects">Projects</a>
+      </div>
+
+      <nav class="pill-nav">
+        <a class="pill" href="#about">About</a>
+        <a class="pill" href="#skills">Skills</a>
+        <a class="pill" href="#projects">Projects</a>
+        <a class="pill" href="#certifications">Certifications</a>
+        <a class="pill" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section" id="about">
+      <h2>About</h2>
+      <div class="card">
+        <p>I’m a Business/Data Analyst with experience in SQL, dashboards, and data-driven decision making.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card"><h3>Analytics</h3><p>SQL • Python • Excel</p></div>
+        <div class="card"><h3>BI</h3><p>Power BI • Tableau</p></div>
+        <div class="card"><h3>Systems</h3><p>ERP • Process Improvement</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <a class="card linkcard" href="https://github.com/mughalahsen-cpu" target="_blank" rel="noreferrer">
+          <h3>Project 1</h3><p>Short description here.</p><span class="meta">View on GitHub →</span>
+        </a>
+        <a class="card linkcard" href="https://github.com/mughalahsen-cpu" target="_blank" rel="noreferrer">
+          <h3>Project 2</h3><p>Short description here.</p><span class="meta">View on GitHub →</span>
+        </a>
+        <a class="card linkcard" href="https://github.com/mughalahsen-cpu" target="_blank" rel="noreferrer">
+          <h3>Project 3</h3><p>Short description here.</p><span class="meta">View on GitHub →</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <h2>Certifications</h2>
+      <div class="card">
+        <ul class="list">
+          <li>Microsoft Power BI</li>
+          <li>AWS Data Analytics</li>
+          <li>Google Project Management</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:ahsen@example.com">ahsen@example.com</a></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="#top" class="backtop">Back to top ↑</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
