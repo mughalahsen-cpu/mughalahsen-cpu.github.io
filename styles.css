@@ -107,3 +107,10 @@ object-fit:contain;
 display:block;
 margin:0 auto 10px;
 }
+.about-text{
+max-width:900px;
+font-size:17px;
+line-height:1.7;
+color:#e5e7eb;
+margin-top:15px;
+}
