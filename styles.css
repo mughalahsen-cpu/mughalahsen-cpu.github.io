@@ -144,3 +144,71 @@ footer{
   #particles-js canvas{
   filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
 }}
+.contact-layout{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:start;
+}
+
+.contact-kicker{
+color:var(--accent);
+letter-spacing:2px;
+font-size:12px;
+margin-bottom:10px;
+}
+
+.contact-left h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.contact-left span{
+color:var(--accent);
+}
+
+.contact-intro{
+color:var(--muted);
+margin-bottom:30px;
+max-width:500px;
+}
+
+.contact-info p{
+margin:12px 0;
+color:var(--text);
+}
+
+.contact-form{
+display:flex;
+flex-direction:column;
+gap:16px;
+}
+
+.contact-form input,
+.contact-form textarea{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.1);
+padding:14px;
+border-radius:10px;
+color:var(--text);
+}
+
+.contact-form textarea{
+height:120px;
+resize:none;
+}
+
+.contact-form button{
+background:var(--accent);
+border:none;
+padding:14px;
+border-radius:10px;
+color:white;
+font-weight:600;
+cursor:pointer;
+transition:0.2s;
+}
+
+.contact-form button:hover{
+opacity:0.85;
+}
