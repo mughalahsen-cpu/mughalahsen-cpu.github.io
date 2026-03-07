@@ -311,3 +311,26 @@ width:20px;
 border-top:1px solid rgba(139,92,246,0.2);
 box-shadow:0 -40px 80px rgba(0,0,0,0.6);
 }
+#contact{
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  margin-right:calc(50% - 50vw);
+  padding:120px 0;
+  background:linear-gradient(135deg,#0b1120 0%,#1a103a 50%,#0b1120 100%);
+  border-top:1px solid rgba(139,92,246,0.25);
+  box-shadow:0 -40px 80px rgba(0,0,0,0.6);
+  position:relative;
+  z-index:2;
+}
+
+#contact::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:transparent;
+  z-index:-1;
+}
+#contact .contact-layout{
+  width:min(1100px,92%);
+  margin:0 auto;
+}
