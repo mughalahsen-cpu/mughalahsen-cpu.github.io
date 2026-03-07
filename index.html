@@ -174,23 +174,52 @@
 
 <script>
 particlesJS("particles-js", {
-  particles: {
-    number: { value: 90 },
-    color: { value: "#f4c542" },
-    shape: { type: "circle" },
-    opacity: { value: 0.4 },
-    size: { value: 3 },
-    move: { enable: true, speed: 1.2 },
-    line_linked: {
-      enable: true,
-      distance: 150,
-      color: "#f4c542",
-      opacity: 0.3,
-      width: 1
+  particles:{
+    number:{value:120},
+
+    color:{value:"#ffffff"},
+
+    shape:{type:"circle"},
+
+    opacity:{
+      value:0.8,
+      random:true
+    },
+
+    size:{
+      value:2.5,
+      random:true
+    },
+
+    move:{
+      enable:true,
+      speed:1.1
+    },
+
+    line_linked:{
+      enable:true,
+      distance:150,
+      color:"#ffffff",
+      opacity:0.6,
+      width:1.2
     }
-  }
+  },
+
+  interactivity:{
+    detect_on:"canvas",
+    events:{
+      onhover:{enable:true,mode:"grab"},
+      onclick:{enable:false},
+      resize:true
+    },
+    modes:{
+      grab:{
+        distance:140,
+        line_linked:{opacity:1}
+      }
+    }
+  },
+
+  retina_detect:true
 });
 </script>
-
-</body>
-</html>  
