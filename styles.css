@@ -1,4 +1,4 @@
-:root{--bg:#0b1120;--card:#111827cc;--text:#f3f4f6;--muted:#9ca3af;--accent:#3b82f6;--shadow:0 20px 60px rgba(0,0,0,.55)}
+:root{--bg:#020617;--card:#0f172acc;--text:#f3f4f6;--muted:#9ca3af;--accent:#8b5cf6;--shadow:0 20px 60px rgba(0,0,0,.55)}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;color:var(--text);background:var(--bg)}
