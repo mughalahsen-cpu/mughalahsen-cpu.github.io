@@ -100,3 +100,10 @@ margin:0;
 font-size:14px;
 font-weight:600;
 }
+.tool-card img{
+width:42px;
+height:42px;
+object-fit:contain;
+display:block;
+margin:0 auto 10px;
+}
