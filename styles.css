@@ -29,15 +29,41 @@ body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;color:var(--text);back
 .footer{padding:24px 0 40px;text-align:center;color:var(--muted)}
 .backtop{color:var(--muted);text-decoration:none}
 .backtop:hover{color:var(--text)}
-#certifications{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:20px;
+.cert-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:20px;
 }
 
-#certifications img{
-  width:100%;
-  border-radius:10px;
-  display:block;
-  margin-bottom:10px;
+.cert-card{
+background:rgba(14,17,23,.7);
+padding:18px;
+border-radius:14px;
+text-align:center;
+transition:.25s ease;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.cert-card:hover{
+transform:translateY(-6px);
+box-shadow:0 15px 40px rgba(0,0,0,.5);
+}
+
+.cert-card img{
+width:100%;
+height:160px;
+object-fit:cover;
+border-radius:8px;
+margin-bottom:12px;
+}
+
+.cert-card p{
+font-size:14px;
+color:var(--muted);
+}
+.cert-card p{
+font-size:15px;
+font-weight:500;
+color:var(--text);
 }
